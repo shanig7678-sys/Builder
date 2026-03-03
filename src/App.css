@@ -646,6 +646,7 @@ header {
     color: var(--heading-color);
     margin-bottom: 1.5rem;
     font-weight: 700;
+    animation: fadeInUp 0.8s ease-out;
 }
 
 .service-description {
@@ -653,6 +654,7 @@ header {
     color: #7a8a99;
     line-height: 1.8;
     margin-top: 1rem;
+    animation: fadeIn 1s ease-out 0.3s both;
 }
 
 .service-carousel-wrapper {
@@ -1010,6 +1012,7 @@ header {
     font-weight: 700;
     /* border-radius: 20px; */
     margin-bottom: 0.5rem;
+    animation: fadeInUp 0.8s ease-out;
 }
 
 .contact-main-title {
@@ -1017,6 +1020,7 @@ header {
     color: var(--heading-color);
     font-weight: 600;
     margin-bottom: 1rem;
+    animation: fadeIn 1s ease-out 0.3s both;
 }
 
 .contact-subtitle {
@@ -1025,6 +1029,7 @@ header {
     max-width: 800px;
     margin: 0 auto;
     line-height: 1.7;
+    animation: fadeIn 1s ease-out 0.3s both;
 }
 
 .contact-content-wrapper {
